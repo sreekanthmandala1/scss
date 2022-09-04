@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+//bootstrap
+@import "~bootstrap/scss/mixins/breakpoints";
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+//local
+@import "../src/scss/mixins/home";
+@import "../src/scss/functions";
+@import "../src/scss/variables";

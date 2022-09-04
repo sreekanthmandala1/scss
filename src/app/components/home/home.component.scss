@@ -1,0 +1,44 @@
+@import "../../../styles.scss";
+
+//0px < xs < 576px
+@include media-breakpoint-up(xs) {
+  .home {
+    background-color: rgb(8, 71, 37);
+  }
+}
+
+//  576px < sm < 768px
+@include media-breakpoint-up(sm) {
+  .home {
+    background-color: rgb(109, 40, 40);
+  }
+}
+
+//  768px < md < 992px
+@include media-breakpoint-up(md) {
+  .home {
+    background-color: rgb(91, 40, 211);
+  }
+}
+
+// 992px < lg < 1200px
+@include media-breakpoint-up(lg) {
+  .home {
+    background-color: rgb(206, 178, 186);
+  }
+}
+
+//  1200px < xl < 1400px
+@include media-breakpoint-up(xl) {
+  .home {
+    // background-color: rgb(133, 84, 29);
+    background-color: $blue-900;
+  }
+}
+
+//  1400px < xxl < 2000px
+@include media-breakpoint-up(xxl) {
+  .home {
+    background-color: rgb(102, 216, 25);
+  }
+}
